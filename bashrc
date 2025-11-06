@@ -26,7 +26,7 @@ __fzf_history__() {
   fi
 }
 
-bind -r '"\C-r": __fzf_history__'
+bind -x '"\C-r": __fzf_history__'
 
 # -------------------------------
 # FZF-based history search with most recent command at top
